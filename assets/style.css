@@ -251,31 +251,41 @@ body {
     border: 0 none;
   }
 
-  @media (max-width: 980px) {
+  @media screen and (max-width: 980px) {
     #logo{
         position: static;
+        width: 100%
     }
-    
+     nav{
+        float: left;
+    }
+    .main-section{
+        text-align:left;
+    }
   }
 
-  @media (max-width: 768px){
+  @media screen and (max-width: 768px){
     #logo{
         position: static;
-    }
-    nav{
-        display: block;
+        width: 100%;
     }
     }
 
-  
   @media (max-width: 640px){
       .auth-image{
-          width: 20%;
-          height: 25%;
+          size:50%;
       }
       #logo{
           position: static;
-          width: 100%
+          width: 100%;
+      }
+      .work{
+        width:95%;
+        margin: auto;
+      }
+      .nav a{
+          float: none;
+          width: 100%;
       }
      
   }
