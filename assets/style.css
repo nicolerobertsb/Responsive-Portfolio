@@ -14,7 +14,7 @@ body {
   /* sticky footer styling */
   
   /* https://css-tricks.com/snippets/css/sticky-footer/ */
-/*   
+  
   html,
   body {
     height: 100%;
@@ -36,7 +36,7 @@ body {
   
   /* start hover styling */
   
-  /* #logo:hover,
+  #logo:hover,
   input[type=submit]:hover {
     background: #5e7f7e;
   }
@@ -50,7 +50,7 @@ body {
     opacity: 0.8;
   }
   
-  end hover styling */ 
+  /* end hover styling  */
   
   /* general styling */
   
@@ -192,11 +192,17 @@ body {
       width: 300px;
       height: 300px;
   }
+
+  .auth-image{
+      float: left;
+      margin: 10px;
+      height: 350px;
+  }
   
   .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+    /* max-width: 650px; */
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
@@ -207,6 +213,8 @@ body {
   
   #contact-form ul {
     margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0px;
   }
   
   #contact-form li {
